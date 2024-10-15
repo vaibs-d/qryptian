@@ -1,0 +1,29 @@
+*.pyc
+__pycache__/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled JavaScript
+qr-extension/public/*.js
+qr-extension/public/*.js.map
+
+# Docker
+*.env
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Sensitive files
+*.pem
+*.key

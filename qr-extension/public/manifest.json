@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Qryptian",
+  "version": "1.0",
+  "description": "Detects and helps redact sensitive information",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png"
+  }
+}
