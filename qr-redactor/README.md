@@ -2,8 +2,6 @@
 
 This project implements a FastAPI-based web service for identifying and redacting sensitive data in text. It uses a pre-trained NER (Named Entity Recognition) model to detect sensitive information such as names, organizations, and locations.
 
-![Demo](<Screen Recording 2024-09-03 at 23.12.41 2.gif>)
-
 ## Features
 
 - Identify sensitive data in text using NER
