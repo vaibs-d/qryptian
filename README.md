@@ -2,7 +2,7 @@
 
 Qryptian is a comprehensive project that ensures that you do not leak any sensitive data when interacting with Large Language Models(LLMs) on chat interfaces. It combines a Chrome extension for capturing user messages and a backend service for redacting sensitive information. Both of these can be deployed locally and used for redaction straightaway.
 
-![Demo](<Screen Recording 2024-09-03 at 23.12.41 2.gif>)
+![Demo](<demo.gif>)
 
 ## Project Structure
 
